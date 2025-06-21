@@ -1,16 +1,5 @@
-# Core dependencies
 torch
-numpy
-tqdm
-more-itertools
-tiktoken
-numba
-triton>=2.0.0;platform_machine=="x86_64" and sys_platform=="linux" or sys_platform=="linux2"
-
-# Whisper (official or clone)
-git+https://github.com/openai/whisper.git
-
-# Server + audio processing
-ffmpeg-python
 flask
 gunicorn
+ffmpeg-python
+whisper @ git+https://github.com/openai/whisper.git
