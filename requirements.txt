@@ -2,7 +2,8 @@ torch
 flask
 gunicorn
 ffmpeg-python
-whisper @ git+https://github.com/omarekk/whisperai.git
+whisper @ git+https://github.com/omarekk/whisperai.git@main
+
 
 
 
