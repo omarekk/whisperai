@@ -1,0 +1,9 @@
+__pycache__/
+*.log
+*.wav
+*.tmp
+*.mp3
+*.flac
+venv/
+.whisper/
+.cache/
